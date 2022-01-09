@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(41, 63, 40);
+    color: white;
+    font-weight: 100;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(41, 63, 40, 0), rgba(41, 63, 40, 0.8)), 
+    url("https://c0.wallpaperflare.com/preview/652/943/804/close-up-fresh-freshness-garden.jpg");
+    height: 75%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+    font-family: Georgia, serif;
+    background-color: rgb(17, 33, 16, 0.5);
+    padding: 10px 20px 10px 20px;
+    outline: solid white 5px;
+  }
+
+.fave {
+    font-size: small;
+    
+}
+
+  .plants {
+      float: left;
+      padding: 5px 10px 5px 10px;
+  }
+
+  ul {
+      list-style-type: circle;
+      align-items: center;
+      list-style-position: inside;
+  }
+
+.h-1 {
+    text-align: center;
+ }
+
+ .webabout {
+     text-indent: 50px;
+ }
+
+
+ .projects{
+     text-align: center;
+ }
+
+ .contactinfo {
+     text-align: center;
+     font-size: small;
+ }
+
+ .linked{
+     padding: 0 10px 0px 0;
+ }
